@@ -19,13 +19,13 @@
 		
 			ajax.onreadystatechange = function () {
 				if (ajax.readyState == 4) {
-					documnet.getElementById('content').innerHTML =ajax.responseText;
+					document.getElementById('content').innerHTML =ajax.responseText;
 				}	
 			}
 				
 			function getContent() {
-				ajax.sned();
-				documnet,getElementById('btn_content').style.display = 'none';
+				ajax.send();
+				document.getElementById('btn_content').style.display = 'none';
 				}
 			
 		</script>
