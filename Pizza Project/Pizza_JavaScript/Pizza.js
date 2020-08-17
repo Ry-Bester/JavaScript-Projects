@@ -55,4 +55,3 @@ function getMeat(runningTotal,text1,) {
 	
 };
 
-sdfgsdgfdfgdfg
