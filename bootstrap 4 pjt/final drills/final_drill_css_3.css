@@ -1,0 +1,12 @@
+
+
+p {
+    color: crimson;
+}
+p:hover {
+    background-color: aqua;
+}
+.column {
+    width: 50%;
+    height: 400px;
+}
