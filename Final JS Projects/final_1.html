@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["phone number"].value;
+  if (isNaN(x) || x < 10|| x > 11 ) {
+    alert("phone number must be filled out correctly");
+    return false;
+} else {
+        alert("thank you!");
+        
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Phone number: <input type="text" name="phone number">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
