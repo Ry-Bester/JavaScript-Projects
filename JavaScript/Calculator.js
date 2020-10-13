@@ -86,7 +86,7 @@ function Update_Display() {
             return;
         }
 
-        if (target.classList.contains ('all=clear')) {
+        if (target.classList.contains ('all-clear')) {
             Calculator_Reset();
             Update_Display();
             return;
